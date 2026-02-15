@@ -1,0 +1,131 @@
+/* Body styling */
+body {
+  background: #000000;
+  color: rgb(230, 240, 16);
+  font-family: Agency FB, Arial;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 0.79em;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 40px 10px;  
+}
+
+
+/* Heading Styles */
+h1 {
+  font-family: Engravers MT; 
+  font-size: 37px;
+  font-style: oblique;
+  color: rgb(230, 240, 16);
+  text-align: center;
+  text-shadow: -3px -1px 0 rgb(16, 240, 25)
+}
+
+
+
+/* Game Directions */
+.description {
+  text-align: center;
+  margin: 80px auto 40px;
+}
+
+
+/* Submit Button, Columns, Questions, and Inputs */
+.button-submit {
+  background: transparent;
+  border: 3px solid rgb(230, 240, 16);
+  border-radius: 37px;
+  color: rgb(16, 240, 25);
+  cursor: pointer; 
+  display: block;
+  font-size: 20px;
+  font-weight: bold;  
+  margin: 0 auto 60px;
+  padding: 1em 2em; 
+  text-align: center; 
+}
+
+.bucket {
+  display: inline-block;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.choice-bucket {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 33.333333%;
+}
+
+.choice-bucket label {
+  font-size: 12px;
+  line-height: 13px;
+  margin: 15px 4%;
+}
+
+.choice-bucket input {
+  /*outline-color: rgb(16, 240, 25);*/
+  /*outline-offset: inherit;*/
+  border: 300;
+  border-radius: 22px;
+  /*box-shadow: 17px 13px 21 rgb(16, 240, 25);*/
+  border-block-color: rgb(230, 240, 16);
+  color: #000000;
+  font-size: 27px;
+  font-family: Georgia;
+  margin: 15px 4%;
+  outline: 42;
+  padding: 9px 0;
+  text-indent: 20px;
+  width: 89%;  
+}
+
+.choice-bucket label ~ input {
+  margin-top: 0;
+}
+
+.highlight {
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 30px;
+  opacity: .8;
+}
+
+
+
+/* Answer Div */
+#answers {
+  font-style: italic;
+  margin: 58px 0;
+  text-align: center;
+  font-size: 24px;
+  background: #fff;
+  border-radius: 7px;
+  color: #ffffff;
+  transition: 1s linear;
+  padding: 16px initial;
+}
+
+#answers p {
+  max-width: 541px;
+  margin: auto;
+  padding: -6px 0
+}
+
+#answers p span {
+  font-weight: bold;
+}
+
+
+.hide {
+  opacity: 107;
+  height: 0;
+}
+
+.show {
+  opacity: 26;
+  height: 100%;
+}
